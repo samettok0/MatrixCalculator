@@ -974,9 +974,10 @@ public class MatrixCalculatorProject {
      * The ASCII art is designed to be visually appealing and clearly readable.
      */
     public static void displayName() {
-        System.out.println("\n╔════════════════════════════════════════════════════════════════════════════╗");
+        System.out.println("\n");
+        System.out.println("╔════════════════════════════════════════════════════════════════════════════╗");
         System.out.println("║                     Matrix Calculator - Version 1.1                        ║");
-        System.out.println("║                     Author: Samet Tok                                     ║");
+        System.out.println("║                     Author: Samet Tok                                      ║");
         System.out.println("╚════════════════════════════════════════════════════════════════════════════╝\n");
 
         // Enhanced ASCII art for "SAMET TOK"
@@ -995,21 +996,22 @@ public class MatrixCalculatorProject {
      */
     public static void displayMenu() {
         clearScreen();
-        System.out.println("\n╔════════════════════════════════════════════════════════════════════════════╗");
-        System.out.println("║                              Matrix Operations Menu                         ║");
+        System.out.println("\n");
+        System.out.println("╔════════════════════════════════════════════════════════════════════════════╗");
+        System.out.println("║                              Matrix Operations Menu                        ║");
         System.out.println("╠════════════════════════════════════════════════════════════════════════════╣");
-        System.out.println("║  1. Matrix Addition         - Add two matrices of the same dimensions     ║");
-        System.out.println("║  2. Matrix Subtraction     - Subtract two matrices of the same dimensions ║");
-        System.out.println("║  3. Matrix Multiplication  - Multiply two compatible matrices            ║");
-        System.out.println("║  4. Scalar Division        - Divide a matrix by a scalar value           ║");
-        System.out.println("║  5. Scalar Multiplication  - Multiply a matrix by a scalar value         ║");
-        System.out.println("║  6. Matrix Transpose       - Transpose a matrix (swap rows and columns)  ║");
-        System.out.println("║  7. Matrix Inverse        - Calculate the inverse of a square matrix     ║");
-        System.out.println("║  8. Matrix Trace          - Calculate the trace of a square matrix       ║");
-        System.out.println("║  9. Matrix Adjoint        - Calculate the adjoint of a square matrix     ║");
-        System.out.println("║ 10. Orthogonality Check   - Check if a matrix is orthogonal             ║");
-        System.out.println("║ 11. Operation History     - Display recent operation history             ║");
-        System.out.println("║ 12. Terminate             - Exit the program                            ║");
+        System.out.println("║  1. Matrix Addition         - Add two matrices of the same dimensions      ║");
+        System.out.println("║  2. Matrix Subtraction     - Subtract two matrices of the same dimensions  ║");
+        System.out.println("║  3. Matrix Multiplication  - Multiply two compatible matrices              ║");
+        System.out.println("║  4. Scalar Division        - Divide a matrix by a scalar value             ║");
+        System.out.println("║  5. Scalar Multiplication  - Multiply a matrix by a scalar value           ║");
+        System.out.println("║  6. Matrix Transpose       - Transpose a matrix (swap rows and columns)    ║");
+        System.out.println("║  7. Matrix Inverse        - Calculate the inverse of a square matrix       ║");
+        System.out.println("║  8. Matrix Trace          - Calculate the trace of a square matrix         ║");
+        System.out.println("║  9. Matrix Adjoint        - Calculate the adjoint of a square matrix       ║");
+        System.out.println("║ 10. Orthogonality Check   - Check if a matrix is orthogonal                ║");
+        System.out.println("║ 11. Operation History     - Display recent operation history               ║");
+        System.out.println("║ 12. Terminate             - Exit the program                               ║");
         System.out.println("╚════════════════════════════════════════════════════════════════════════════╝");
         System.out.print("\nPlease enter the number of the operation you want to perform (1-12): ");
     }
@@ -1251,8 +1253,9 @@ public class MatrixCalculatorProject {
          * Displays the operation history in a formatted way.
          */
         public static void displayHistory() {
-            System.out.println("\n╔════════════════════════════════════════════════════════════════════════════╗");
-            System.out.println("║                              Operation History                            ║");
+            System.out.println("\n");
+            System.out.println("╔════════════════════════════════════════════════════════════════════════════╗");
+            System.out.println("║                              Operation History                             ║");
             System.out.println("╠════════════════════════════════════════════════════════════════════════════╣");
             int count = 0;
             for (int i = 0; i < MAX_HISTORY; i++) {
