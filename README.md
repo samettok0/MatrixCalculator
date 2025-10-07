@@ -114,7 +114,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Author
 
-Samet Tok
+Samet Tok && Furkan Zayif
+
 
 ## Version History
 
